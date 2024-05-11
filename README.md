@@ -26,3 +26,5 @@ TODO (20240510):
 - Payment portal (bolt-on: `Paypal`, `Stripe`, etc.)
 - analytics + storage
 - containerization: `nginx` on [VPS](https://www.hyperexpert.com/)
+
+`npx depcheck` reports missing deps
