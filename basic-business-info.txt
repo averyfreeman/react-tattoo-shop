@@ -1,0 +1,51 @@
+
+Feast or Famine Tattoo
+1803 State Ave NE, Olympia, WA 98506
+Closed ⋅ Opens 11AM Wed
+(360) 324-7661
+24WF+M3 Olympia, Washington
+
+HStack chakra-ui/react
+import { AiFillTwitterSquare } from "react-icons/ai";
+import { BiLogoFacebookSquare } from "react-icons/bi";
+import { SiTiktok } from "react-icons/si";
+import { IconContext } from "react-icons";
+
+  const bs = {
+    webkitBoxShadow: "10px 3px 10px #9E9E9E",
+    mozBoxShadow: "10px 3px 10px #9E9E9E",
+    boxShadow: "10px 3px 10px #9E9E9E",
+  };
+
+      <HStack align="center" spacing="2em">
+        <IconContext.Provider
+          value={{
+            color: "#030303",
+            title: "Facebook",
+            size: "5em",
+            boxShadow: bs,
+          }}
+        >
+          <BiLogoFacebookSquare />
+        </IconContext.Provider>
+        <IconContext.Provider
+          value={{
+            color: "#030303",
+            title: "Twitter",
+            size: "5em",
+            boxShadow: bs,
+          }}
+        >
+          <AiFillTwitterSquare />
+        </IconContext.Provider>
+        <IconContext.Provider
+          value={{
+            color: "#030303",
+            title: "TikTok",
+            size: "5em",
+            boxShadow: bs,
+          }}
+        >
+          <SiTiktok />
+        </IconContext.Provider>
+      </HStack>
