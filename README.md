@@ -4,7 +4,7 @@
 
 ---
 
-![screenshot.png](screenshot.png?raw=true width=400)
+![screenshot](https://github.com/averyfreeman/react-tattoo-shop/blob/main/screenshot.png?raw=true)
 
 ---
 
